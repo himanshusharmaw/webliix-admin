@@ -49,7 +49,6 @@ public class ClientController {
     		ClientDTO dto = convertToDTO(savedClient);
 
         if (sendWelcome) {
-            System.out.println("Sending Mail........................................");
             mailService.sendWelcomeEmailAsync(savedClient);
             System.out.println("Mail Sent");
         }
