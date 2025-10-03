@@ -1,64 +1,88 @@
 client controller
-	
-	Get api/clients
-	response
-	{
-	   {
-        "id": 2,
-        "companyName": "Aura Drishti",
-        "contactPerson": "Aryan Kashyap",
-        "email": "john@example.in",
-        "phone": "9876543210",
-        "address": null,
-        "city": null,
-        "state": null,
-        "country": null,
-        "zipCode": null,
-        "createdAt": "2025-08-20T22:00:21.77323",
-        "updatedAt": "2025-08-20T22:00:21.77323"
-    	},............ }
+ 
+ 	Get api/clients
+ 	response
+ 	{
+ 	   {
+        "id": 2,
+        "companyName": "Aura Drishti",
+        "contactPerson": "Aryan Kashyap",
+        "email": "john@example.in",
+        "phone": "9876543210",
+        "address": null,
+        "city": null,
+        "state": null,
+        "country": null,
+        "zipCode": null,
+        "createdAt": "2025-08-20T22:00:21.77323",
+        "updatedAt": "2025-08-20T22:00:21.77323"
+    	},............ }
 
-	post api/clients
-	request 
-	without Service
-	{
-  	"companyName": "Tech Solutions Pvt Ltd",
-  	"contactPerson": "Ravi Sharma",
-  	"email": "ravi.sharma@example.com",
-  	"phone": "+91-9876543210",
-  	"address": "A-45, Industrial Area",
-  	"city": "New Delhi",
-  	"state": "Delhi",
-  	"country": "India",
-  	"zipCode": "110001"
-	}
-	with service 
-	{
-  "companyName": "Tech Solutions Pvt Ltd",
-  "contactPerson": "Ravi Sharma",
-  "email": "ravi.sharma@example.com",
-  "phone": "+91-9876543210",
-  "address": "A-45, Industrial Area",
-  "city": "New Delhi",
-  "state": "Delhi",
-  "country": "India",
-  "zipCode": "110001",
-  "services": [
-    {
-      "serviceName": "Website Development",
-      "description": "Custom web application",
-      "price": 50000,
-      "durationInDays": 30
-    },
-    {
-      "serviceName": "SEO Optimization",
-      "description": "Improve website ranking",
-      "price": 15000,
-      "durationInDays": 15
-    }
-  ]
+ 	post api/clients
+ 	request
+ 	without Service
+ 	{
+  	"companyName": "Tech Solutions Pvt Ltd",
+  	"contactPerson": "Ravi Sharma",
+  	"email": "ravi.sharma@example.com",
+  	"phone": "+91-9876543210",
+  	"address": "A-45, Industrial Area",
+  	"city": "New Delhi",
+  	"state": "Delhi",
+  	"country": "India",
+  	"zipCode": "110001"
+ 	}
+ 	with service
+ 	{
+  "companyName": "Tech Solutions Pvt Ltd",
+  "contactPerson": "Ravi Sharma",
+  "email": "ravi.sharma@example.com",
+  "phone": "+91-9876543210",
+  "address": "A-45, Industrial Area",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "country": "India",
+  "zipCode": "110001",
+  "services": [
+    {
+      "serviceName": "Website Development",
+      "description": "Custom web application",
+      "price": 50000,
+      "durationInDays": 30
+    },
+    {
+      "serviceName": "SEO Optimization",
+      "description": "Improve website ranking",
+      "price": 15000,
+      "durationInDays": 15
+    }
+  ]
 }
 
 
+insert into admins values(2,'$2a$10$4UR6QlLBojb1HC3wUX6qpuMuPQjVgueKbsyxUrnaq4vRQY4Bt5F76','admin');
+
 db supabase Himanshu@123
 
+db parameters
+host: db.nbmkudjvrlncmcofwyoc.supabase.co
+Port: 5432
+db: postgres
+user: postgres
+
+psql "host=db.nbmkudjvrlncmcofwyoc.supabase.co port=5432 dbname=postgres user=postgres password=Himanshu@123 sslmode=require"
+
+
+
+Render DB
+
+Host: dpg-d3fhls15pdvs73dn8jtg-a
+Port: 5432
+Database: webliix_db
+user: webliix_db_user
+pass: Rz9p7oIGerujClGjwmX9eqOLoyTHNEm5
+internal url: postgresql://webliix_db_user:Rz9p7oIGerujClGjwmX9eqOLoyTHNEm5@dpg-d3fhls15pdvs73dn8jtg-a/webliix_db
+
+External url: postgresql://webliix_db_user:Rz9p7oIGerujClGjwmX9eqOLoyTHNEm5@dpg-d3fhls15pdvs73dn8jtg-a.singapore-postgres.render.com/webliix_db
+
+connect: PGPASSWORD=Rz9p7oIGerujClGjwmX9eqOLoyTHNEm5 psql -h dpg-d3fhls15pdvs73dn8jtg-a.singapore-postgres.render.com -U webliix_db_user webliix_db
