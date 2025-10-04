@@ -3,8 +3,10 @@ com\webliix\dto\DocumentDTO.class
 com\webliix\controller\AuthController.class
 com\webliix\service\ClientService.class
 com\webliix\service\ClientServiceService.class
+com\webliix\service\LeadsService.class
 com\webliix\dto\InvoiceDTO.class
 com\webliix\dto\ClientDTO.class
+com\webliix\repository\LeadsRepository.class
 com\webliix\service\impl\InvoiceServiceImpl.class
 com\webliix\repository\ClientServiceRepository.class
 com\webliix\controller\ClientServiceController.class
@@ -14,6 +16,7 @@ com\webliix\dto\ClientServiceDTO.class
 com\webliix\service\impl\DocumentServiceImpl.class
 com\webliix\WebliixApplication.class
 com\webliix\config\SecurityBeans.class
+com\webliix\model\Leads.class
 com\webliix\service\InvoiceService.class
 com\webliix\controller\DocumentController.class
 com\webliix\model\Invoice.class
@@ -23,10 +26,12 @@ com\webliix\controller\ClientController.class
 com\webliix\repository\ClientRepository.class
 com\webliix\model\Document.class
 com\webliix\repository\AdminRepository.class
+com\webliix\controller\LeadsController.class
 com\webliix\config\FileStorageConfig.class
 com\webliix\config\SecurityConfig.class
 com\webliix\controller\AuthController$TokenResponse.class
 com\webliix\repository\InvoiceRepository.class
+com\webliix\model\LeadStatus.class
 com\webliix\controller\SearchController.class
 com\webliix\controller\AuthController$LoginRequest.class
 com\webliix\service\impl\AuthService.class
