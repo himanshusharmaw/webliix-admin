@@ -15,6 +15,13 @@ public class AuthController {
         this.authService = authService;
     }
 
+    @GetMapping("/ping")
+    public ResponseEntity<String> keepAlive() {
+    	System.out.println("alive");
+        return ResponseEntity.ok("Server is alive");
+    }
+    
+    
     @PostMapping("/login")
     public ResponseEntity<TokenResponse> login(@RequestBody LoginRequest req) {
         String token = authService.login(req.getUsername(), req.getPassword());
