@@ -11,6 +11,7 @@ C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\impl\DocumentServiceImpl.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\config\JwtUtil.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\ClientService.java
+C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\controller\LeadsController.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\dto\ClientDTO.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\Admin.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\InvoiceService.java
@@ -19,14 +20,18 @@ C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\impl\ClientServiceImpl.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\Document.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\dto\ClientServiceDTO.java
+C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\Leads.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\MailService.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\impl\AuthService.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\WebliixApplication.java
+C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\LeadStatus.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\impl\InvoiceServiceImpl.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\controller\ClientServiceController.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\controller\AuthController.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\config\SecurityBeans.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\config\JwtFilter.java
+C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\service\LeadsService.java
+C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\repository\LeadsRepository.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\dto\InvoiceDTO.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\model\Client.java
 C:\Users\Lenovo\OneDrive\Desktop\Webliix\Website\admin.webliix\src\main\java\com\webliix\repository\ClientServiceRepository.java

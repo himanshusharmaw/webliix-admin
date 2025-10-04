@@ -25,7 +25,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable()) // Disable CSRF for JWT-based APIs
             .authorizeHttpRequests(authz -> authz
-                .requestMatchers("/api/auth/**").permitAll() // allow all auth endpoints
+                .requestMatchers("/api/auth/**").permitAll() //permit all the endpoint
                 .anyRequest().authenticated() // all other endpoints need JWT
             )
             .cors(cors -> cors.configurationSource(corsConfigurationSource()));
